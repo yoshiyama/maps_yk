@@ -1,0 +1,10 @@
+^C:\QT\EXAMPLES\QT-6.5.0\WEBENGINEWIDGETS\MAPS\CMAKELISTS.TXT
+setlocal
+C:\Users\survey\scoop\persist\jetbrains-toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -SC:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps -BC:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps/cmake-build-release --check-stamp-file C:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps/cmake-build-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
