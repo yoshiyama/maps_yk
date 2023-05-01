@@ -1,9 +1,0 @@
--rootPath
-C:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps
--cmake-output
--output-file
-C:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps/cmake-build-release/.qt_plugins/Qt6_QmlPlugins_Imports_maps.cmake
--importPath
-C:/Qt/Examples/Qt-6.5.0/webenginewidgets/maps/cmake-build-release
--importPath
-C:/Qt/6.5.0/msvc2019_64/./qml
